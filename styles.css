@@ -1,24 +1,36 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
 header {
   background-color: #ffc10e;
 }
 .section1 {
   background-color: #ffc10e;
+  height: 20vh;
 }
 .section2 {
   background-color: #ffffff;
+  height: 20vh;
 }
 .section1 {
   background-color: #ececec;
+  height: 20vh;
 }
 .section4 {
   background-color: #ffffff;
+  height: 20vh;
 }
 .section5 {
   background-color: #ececec;
+  height: 20vh;
 }
 .section6 {
   background-color: #ffffff;
+  height: 20vh;
 }
 footer {
   background-color: #ffc10e;
+  height: 20vh;
 }
