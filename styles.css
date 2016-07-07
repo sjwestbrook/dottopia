@@ -18,7 +18,8 @@ header img {
 }
 #section1 {
   background-color: #ffc10e;
-  height: 100vh;
+  background-image: url(images/Illustration.svg);
+  height: 120vh;
   padding: 0 15%;
 }
 #section1 img {
@@ -28,7 +29,7 @@ header img {
 }
 #section1 h1 {
   color: #262e3e;
-  font-size: 5.5em;
+  font-size: 5em;
 }
 #section1 h3 {
   color: #ffffff;
