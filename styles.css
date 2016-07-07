@@ -1,6 +1,10 @@
+@whisper : rgb(236,236,236;
 body {
-  bg-color: #aca4a5;
+  bg-color: #ffffff;
 }
-h1 {
-  color: #919293;
+header {
+  background-color: #ffc10e;
+}
+.section1 {
+  background-color: #ffc10e;
 }
