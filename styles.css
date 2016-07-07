@@ -6,31 +6,31 @@ html {
 header {
   background-color: #ffc10e;
 }
-.section1 {
+#section1 {
   background-color: #ffc10e;
-  height: 20vh;
+  height: 60vh;
 }
-.section2 {
+#section2 {
   background-color: #ffffff;
-  height: 20vh;
+  height: 60vh;
 }
-.section1 {
+#section1 {
   background-color: #ececec;
   height: 20vh;
 }
-.section4 {
+#section4 {
   background-color: #ffffff;
   height: 20vh;
 }
-.section5 {
+#section5 {
   background-color: #ececec;
-  height: 20vh;
+  height: 60vh;
 }
-.section6 {
+#section6 {
   background-color: #ffffff;
-  height: 20vh;
+  height: 60vh;
 }
 footer {
   background-color: #ffc10e;
-  height: 20vh;
+  height: 60vh;
 }
