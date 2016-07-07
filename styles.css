@@ -1,7 +1,24 @@
-@whisper : rgb(236,236,236;
 header {
   background-color: #ffc10e;
 }
 .section1 {
+  background-color: #ffc10e;
+}
+.section2 {
+  background-color: #ffffff;
+}
+.section1 {
+  background-color: #ececec;
+}
+.section4 {
+  background-color: #ffffff;
+}
+.section5 {
+  background-color: #ececec;
+}
+.section6 {
+  background-color: #ffffff;
+}
+footer {
   background-color: #ffc10e;
 }
