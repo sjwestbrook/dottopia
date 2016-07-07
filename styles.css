@@ -19,7 +19,8 @@ header img {
 #section1 {
   background-color: #ffc10e;
   background-image: url(images/Illustration.svg);
-  height: 120vh;
+  background-repeat: no-repeat;
+  height: 115vh;
   padding: 0 15%;
 }
 #section1 img {
