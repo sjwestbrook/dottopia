@@ -8,11 +8,11 @@ header {
 }
 #section1 {
   background-color: #ffc10e;
-  height: 500vh;
+  height: 60vh;
 }
 #section1 img {
   display: block;
-  margin: 3% auto;
+  padding: 5% auto;
 }
 #section1 h1 {
   color: #262e3e;
