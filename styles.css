@@ -16,11 +16,12 @@ header img {
 #section1 {
   background-color: #ffc10e;
   height: 100vh;
+  padding: 0 15%;
 }
 #section1 img {
   display: block;
-  padding: 5% 0;
-  margin: 3% auto;
+  padding: 7% 0;
+  margin: 0 auto;
 }
 #section1 h1 {
   color: #262e3e;
