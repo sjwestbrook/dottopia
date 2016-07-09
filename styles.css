@@ -52,7 +52,7 @@ header img {
   background-repeat: no-repeat;
   background-position: 0 -4%;
   padding: 0 15%;
-  height: 110vh;
+  height: 14%;
 }
 #section1 img {
   display: block;
@@ -70,7 +70,7 @@ header img {
 }
 #section2 {
   background-color: #ffffff;
-  height: 80vh;
+  height: 14%;
 }
 #section2 h1 {
   font-size: 3em;
@@ -81,7 +81,6 @@ header img {
   font-weight: 400;
 }
 #section2 .activity-container {
-  width: 60%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -98,7 +97,7 @@ header img {
 }
 #section3 {
   background-color: #ececec;
-  height: 80vh;
+  height: 14%;
 }
 #section3 h1 {
   font-size: 3em;
@@ -109,7 +108,6 @@ header img {
   font-weight: 400;
 }
 #section3 .rewards-container {
-  width: 60%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -128,7 +126,7 @@ header img {
 }
 #section4 {
   background-color: #ffffff;
-  height: 80vh;
+  height: 14%;
   background-image: url(images/iphone.png);
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -143,7 +141,7 @@ header img {
 }
 #section5 {
   background-color: #ececec;
-  height: 80vh;
+  height: 14%;
 }
 #section5 h1 {
   font-size: 3em;
@@ -154,7 +152,6 @@ header img {
   font-weight: 400;
 }
 #section5 .partners-container {
-  width: 60%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -182,7 +179,7 @@ header img {
 }
 #section6 {
   background-color: #ffffff;
-  height: 80vh;
+  height: 14%;
 }
 #section6 h1 {
   font-size: 3em;
@@ -191,9 +188,6 @@ header img {
 #section6 h3 {
   font-size: 1.75em;
   font-weight: 400;
-}
-#section6 .testimonials {
-  width: 60%;
 }
 #section6 .testimonials blockquote {
   background: #f9f9f9;
