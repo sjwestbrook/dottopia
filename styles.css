@@ -192,8 +192,13 @@ header img {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
-#section6 .testimonials blockquote p {
+#section6 .testimonials p {
   display: inline;
+}
+#section6 .testimonials img {
+  height: 15%;
+  width: 15%;
+  float: left;
 }
 #section6 .partner-logos-container {
   display: flex;
