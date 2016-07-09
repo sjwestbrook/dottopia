@@ -14,6 +14,14 @@
   align-items: center;
   align-content: center;
 }
+.lower-sections h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+.lower-sections h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
 * {
   outline: dotted red 1px;
 }
@@ -86,6 +94,14 @@ header img {
   background-color: #ececec;
   height: 25%;
 }
+#section3 h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+#section3 h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
 #section3 .rewards-container {
   display: flex;
   flex-wrap: wrap;
@@ -103,14 +119,93 @@ header img {
 #section4 {
   background-color: #ffffff;
   height: 25%;
+  background-image: url(images/iphone.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+#section4 h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+#section4 h3 {
+  font-size: 1.75em;
+  font-weight: 400;
 }
 #section5 {
   background-color: #ececec;
   height: 25%;
 }
+#section5 h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+#section5 h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+#section5 .partners-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+#section5 .partners-container #partner1,
+#section5 .partners-container #partner2,
+#section5 .partners-container #partner3 {
+  width: 30%;
+  height: 50%;
+  margin: auto;
+}
+#section5 .learn-more {
+  padding: 3%;
+  margin: 1% 3%;
+  border-radius: 33px 33px 33px 33px;
+  -moz-border-radius: 33px 33px 33px 33px;
+  -webkit-border-radius: 33px 33px 33px 33px;
+  border: 2px solid #262e3e;
+}
 #section6 {
   background-color: #ffffff;
   height: 25%;
+}
+#section6 h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+#section6 h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+#section6 .testimonials blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+#section6 .testimonials blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+#section6 .testimonials blockquote p {
+  display: inline;
+}
+#section6 .partner-logos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+#section6 .partner-logos-container a {
+  width: 25%;
+  height: 50%;
+  margin: auto;
 }
 footer {
   background-color: #ffc10e;
