@@ -29,7 +29,12 @@
 #section5,
 #section6,
 footer {
-  height: 100vh;
+  height: 110vh;
+}
+.bold-yellow {
+  color: #ffc10e;
+  font-weight: bold;
+  font-size: 2em;
 }
 * {
   outline: dotted red 1px;
@@ -122,11 +127,14 @@ header img {
   height: 50%;
   margin: auto;
 }
+#section3 .rewards-container p {
+  font-size: 2em;
+}
 #section4 {
   background-color: #ffffff;
   background-image: url(images/iphone.png);
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: bottom center;
 }
 #section4 h1 {
   font-size: 3em;
@@ -162,12 +170,16 @@ header img {
   margin: auto;
 }
 #section5 .learn-more {
-  padding: 3%;
+  padding: 1%;
   margin: 1% 3%;
   border-radius: 33px 33px 33px 33px;
   -moz-border-radius: 33px 33px 33px 33px;
   -webkit-border-radius: 33px 33px 33px 33px;
   border: 2px solid #262e3e;
+}
+#section5 .learn-more a {
+  text-decoration: none;
+  color: #262e3e;
 }
 #section6 {
   background-color: #ffffff;
@@ -199,11 +211,12 @@ header img {
   display: inline;
 }
 #section6 .testimonials img {
-  height: 15%;
-  width: 15%;
+  height: 5%;
+  width: 5%;
   float: left;
 }
 #section6 .partner-logos-container {
+  margin: 3% auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -212,7 +225,7 @@ header img {
 }
 #section6 .partner-logos-container a {
   width: 25%;
-  height: 50%;
+  height: 10%;
   margin: auto;
 }
 footer {
