@@ -1,6 +1,9 @@
 .text {
   margin: 1vh 5vh 2vh 5vh;
 }
+.margin-top {
+  margin-top: 6vh;
+}
 * {
   outline: dotted red 1px;
 }
@@ -24,7 +27,7 @@ header img {
   background-color: #ffc10e;
   background-image: url(images/Illustration.svg);
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: 0 -4%;
   height: 25%;
   padding: 0 15%;
 }
