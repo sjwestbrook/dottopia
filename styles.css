@@ -33,13 +33,15 @@ header img {
 #section1 h1 {
   font-size: 4.5em;
   font-weight: bold;
-  margin: 0 3vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
 }
 #section1 h3 {
   color: #ffffff;
   font-size: 2em;
   font-weight: 400;
-  margin: 0 3vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
 }
 #section2 {
   background-color: #ffffff;
@@ -48,12 +50,14 @@ header img {
 #section2 h1 {
   font-size: 3em;
   font-weight: bold;
-  margin: 0 3vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
 }
 #section2 h3 {
   font-size: 1.75em;
   font-weight: 400;
-  margin: 0 3vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
 }
 #section3 {
   background-color: #ececec;
