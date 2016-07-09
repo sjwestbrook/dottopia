@@ -22,6 +22,15 @@
   font-size: 1.75em;
   font-weight: 400;
 }
+#section1,
+#section2,
+#section3,
+#section4,
+#section5,
+#section6,
+footer {
+  height: 100vh;
+}
 * {
   outline: dotted red 1px;
 }
@@ -46,7 +55,6 @@ header img {
   background-image: url(images/Illustration.svg);
   background-repeat: no-repeat;
   background-position: 0 -4%;
-  height: 25%;
   padding: 0 15%;
 }
 #section1 img {
@@ -65,7 +73,6 @@ header img {
 }
 #section2 {
   background-color: #ffffff;
-  height: 25%;
 }
 #section2 h1 {
   font-size: 3em;
@@ -92,7 +99,6 @@ header img {
 }
 #section3 {
   background-color: #ececec;
-  height: 25%;
 }
 #section3 h1 {
   font-size: 3em;
@@ -118,7 +124,6 @@ header img {
 }
 #section4 {
   background-color: #ffffff;
-  height: 25%;
   background-image: url(images/iphone.png);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -133,7 +138,6 @@ header img {
 }
 #section5 {
   background-color: #ececec;
-  height: 25%;
 }
 #section5 h1 {
   font-size: 3em;
@@ -167,7 +171,6 @@ header img {
 }
 #section6 {
   background-color: #ffffff;
-  height: 25%;
 }
 #section6 h1 {
   font-size: 3em;
@@ -214,5 +217,4 @@ header img {
 }
 footer {
   background-color: #ffc10e;
-  height: 25%;
 }
