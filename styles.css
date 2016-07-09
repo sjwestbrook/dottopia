@@ -7,6 +7,7 @@ html {
   padding: ;
   font-family: 'Quattrocento Sans', sans-serif;
   text-align: center;
+  color: #262e3e;
 }
 header {
   background-color: #ffc10e;
@@ -20,25 +21,35 @@ header img {
   background-color: #ffc10e;
   background-image: url(images/Illustration.svg);
   background-repeat: no-repeat;
-  height: 115vh;
+  background-position: bottom center;
+  height: 25%;
   padding: 0 15%;
 }
 #section1 img {
   display: block;
-  padding: 3% 0 7% 0;
+  padding: 3% 0;
   margin: 0 auto;
 }
 #section1 h1 {
-  color: #262e3e;
-  font-size: 5em;
+  font-size: 4.5em;
+  font-weight: bold;
 }
 #section1 h3 {
   color: #ffffff;
   font-size: 2.5em;
+  font-weight: 400;
 }
 #section2 {
   background-color: #ffffff;
   height: 60vh;
+}
+#section2 h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+#section2 h3 {
+  font-size: 2.5em;
+  font-weight: 400;
 }
 #section3 {
   background-color: #ececec;
