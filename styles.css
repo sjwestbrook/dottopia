@@ -2,10 +2,17 @@
   margin: 1vh 5vh 2vh 5vh;
 }
 .padding-top {
-  padding-top: 6vh;
+  padding-top: 8vh;
 }
 .padding-bottom {
-  padding-bottom: 6vh;
+  padding-bottom: 8vh;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
 }
 * {
   outline: dotted red 1px;
@@ -50,7 +57,7 @@ header img {
 }
 #section2 {
   background-color: #ffffff;
-  height: 60vh;
+  height: 25%;
 }
 #section2 h1 {
   font-size: 3em;
@@ -60,38 +67,52 @@ header img {
   font-size: 1.75em;
   font-weight: 400;
 }
-#section2 .image-container {
+#section2 .activity-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   align-content: center;
 }
-#section2 .image-container #sleep,
-#section2 .image-container #beverage,
-#section2 .image-container #run,
-#section2 .image-container #fun {
+#section2 .activity-container #sleep,
+#section2 .activity-container #beverage,
+#section2 .activity-container #run,
+#section2 .activity-container #fun {
   width: 25%;
   height: 50%;
   margin: auto;
 }
 #section3 {
   background-color: #ececec;
-  height: 60vh;
+  height: 25%;
+}
+#section3 .rewards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+#section3 .rewards-container #reward1,
+#section3 .rewards-container #reward2,
+#section3 .rewards-container #reward3 {
+  width: 30%;
+  height: 50%;
+  margin: auto;
 }
 #section4 {
   background-color: #ffffff;
-  height: 60vh;
+  height: 25%;
 }
 #section5 {
   background-color: #ececec;
-  height: 60vh;
+  height: 25%;
 }
 #section6 {
   background-color: #ffffff;
-  height: 60vh;
+  height: 25%;
 }
 footer {
   background-color: #ffc10e;
-  height: 60vh;
+  height: 25%;
 }

@@ -23,14 +23,20 @@
 }
 
 .padding-top {
-  padding-top: 6vh;
+  padding-top: 8vh;
 }
 
 .padding-bottom {
-  padding-bottom: 6vh;
+  padding-bottom: 8vh;
 }
 
-
+.flex-container {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
 
 
 
@@ -96,7 +102,7 @@ header {
 
 #section2 {
   background-color: @white;
-  height: 60vh;
+  height: 25%;
   
   h1 {
     font-size: 3em;
@@ -106,12 +112,8 @@ header {
     font-size: 1.75em;
     font-weight: 400;
   }
-  .image-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
+  .activity-container {
+    .flex-container;
     #sleep, #beverage, #run, #fun {
       width: 25%;
       height: 50%;
@@ -126,7 +128,15 @@ header {
 
  #section3 {
   background-color: @whisper;
-  height: 60vh;
+  height: 25%;
+  .rewards-container {
+    .flex-container;
+    #reward1, #reward2, #reward3 {
+      width: 30%;
+      height: 50%;
+      margin: auto;
+    }
+  }
 }
 
   
@@ -134,7 +144,7 @@ header {
 
 #section4 {
   background-color: @white;
-  height: 60vh;
+  height: 25%;
 }
 
 
@@ -142,7 +152,7 @@ header {
   
 #section5 {
   background-color: @whisper;
-  height: 60vh;
+  height: 25%;
 }
   
 
@@ -150,12 +160,12 @@ header {
 
 #section6 {
   background-color: @white;
-  height: 60vh;
+  height: 25%;
 }
   
 
 //FOOTER
 footer {
   background-color: @yellow;
-  height: 60vh;
+  height: 25%;
 }
