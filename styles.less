@@ -286,11 +286,21 @@ footer {
   
   .social-media {
     ul {
-      margin-bottom: 5%;
+      margin: 0 auto 8% auto;
       list-style: none;
+      width: 40%;
       li {
-        width: 30%;
+//        width: 40%;
+        padding: 0 10%;
         display: inline-block;
+        a {
+          text-decoration: none;
+          color: @white;
+          i {
+            font-size: 1.5em;
+            color: @white;
+          }
+        }
       }
     }     
   }
@@ -299,26 +309,30 @@ footer {
     ul {
       display: block;
       list-style: none;
+      
       margin-bottom: 4%;
-      .create-account {
-        color: @biscay;
-        font-size: 1.25em;
-        padding: 1% 3%;
-        margin: 1% 3%;
-        border-radius: 33px 33px 33px 33px;
-        -moz-border-radius: 33px 33px 33px 33px;
-        -webkit-border-radius: 33px 33px 33px 33px;
-        border: 2px solid @white;  
-      }
-
-      .sign-in {
-        a {
-          color: @white;
+      li {
+        margin-bottom: 3%;
+        .create-account {
+          color: @biscay;
           font-size: 1.25em;
-          font-weight: bold;
-          text-decoration: none;
+          padding: 1% 3%;
+          margin: 1% 3%;
+          border-radius: 33px 33px 33px 33px;
+          -moz-border-radius: 33px 33px 33px 33px;
+          -webkit-border-radius: 33px 33px 33px 33px;
+          border: 2px solid @white;  
         }
-      }
+
+        .sign-in {
+          a {
+            color: @white;
+            font-size: 1.25em;
+            font-weight: bold;
+            text-decoration: none;
+          }
+        }
+      }      
     }    
   }
   
@@ -327,14 +341,15 @@ footer {
     color: @biscay;
     margin: 0 auto;
     a {
-      color: @white;
+      font-size: 1em;
+      color: @biscay;
       text-decoration: none;
     }
   }
   
   .copy2 {
     color: @biscay;
-    font-size: 1.5em;
+    font-size: 1.25em;
     margin: 0 auto;
     
   }
