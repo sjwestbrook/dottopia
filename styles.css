@@ -225,33 +225,37 @@ footer {
   background-color: #ffc10e;
   height: 14%;
 }
-footer .ul {
+footer ul {
+  list-style-type: none;
+  margin-bottom: 2%;
+}
+footer ul .footer-nav {
   list-style-type: none;
 }
-footer .ul .footer-nav {
-  list-style-type: none;
-}
-footer .ul .footer-nav li {
+footer ul .footer-nav li {
   margin: 3% auto;
 }
-footer .ul .footer-nav li a {
+footer ul .footer-nav li a {
   color: #313d4f;
   font-size: 2.5em;
   font-weight: bold;
   text-decoration: none;
 }
-footer .social-media {
+footer ul {
+  margin-bottom: 2%;
+}
+footer ul .social-media {
   list-style-type: none;
 }
-footer .social-media li {
+footer ul .social-media li {
   display: inline;
   width: 20%;
 }
-footer .social-media li a {
+footer ul .social-media li a {
   color: #ffffff;
   text-decoration: none;
 }
-footer .social-media li a i {
+footer ul .social-media li a i {
   color: #ffffff;
 }
 footer .create-account {
