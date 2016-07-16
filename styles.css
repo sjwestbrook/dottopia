@@ -225,13 +225,16 @@ footer {
   background-color: #ffc10e;
   height: 14%;
 }
-footer .footer-nav ul {
+footer .ul {
   list-style-type: none;
 }
-footer .footer-nav ul li {
+footer .ul .footer-nav {
+  list-style-type: none;
+}
+footer .ul .footer-nav li {
   margin: 3% auto;
 }
-footer .footer-nav ul li a {
+footer .ul .footer-nav li a {
   color: #313d4f;
   font-size: 2.5em;
   font-weight: bold;
