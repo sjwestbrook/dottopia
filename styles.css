@@ -201,12 +201,20 @@ header img {
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
+  float: left;
+}
+#section6 .testimonials blockquote:before .review {
+  font-size: 2em;
+  text-align: left;
 }
 #section6 .testimonials blockquote:before .reviewer img {
-  height: 5%;
-  width: 5%;
-  display: inline;
+  height: 2%;
+  width: 2%;
+  display: inline-block;
   margin-right: 2%;
+}
+#section6 .testimonials blockquote:before .reviewer span {
+  display: inline-block;
 }
 #section6 .partner-logos-container {
   margin: 3% auto;
@@ -219,7 +227,7 @@ header img {
 #section6 .partner-logos-container a img {
   width: 50%;
   height: 15%;
-  margin: auto;
+  margin: 3% auto;
 }
 footer {
   background-color: #ffc10e;
@@ -242,11 +250,9 @@ footer ul li a i {
   color: #ffffff;
   font-size: 1.75em;
 }
-footer ul .social-media {
-  display: inline;
-}
 footer ul .social-media li {
   width: 30%;
+  display: inline-block;
 }
 footer #account ul {
   display: block;
@@ -270,11 +276,12 @@ footer .copy1 {
   color: #313d4f;
   margin: 0 auto;
 }
+footer .copy1 a {
+  color: #ffffff;
+  text-decoration: none;
+}
 footer .copy2 {
   color: #313d4f;
   font-size: 1.5em;
-}
-footer .copy2 margin a {
-  color: #ffffff;
-  text-decoration: none;
+  margin: 0 auto;
 }

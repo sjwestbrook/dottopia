@@ -225,20 +225,22 @@ header {
       line-height: 0.1em;
       margin-right: 0.25em;
       vertical-align: -0.4em;
+      float: left;
       .review {
-        
+        font-size: 2em;
+        text-align: left;
       }
       
       .reviewer {
         img {
-          height: 5%;
-          width: 5%;
-          display: inline;
+          height: 2%;
+          width: 2%;
+          display: inline-block;
           margin-right: 2%;
         }
-//        span {
-//          
-//        }
+        span {
+          display: inline-block;
+        }
       }
     }    
   }
@@ -250,7 +252,7 @@ header {
       img {
         width: 50%;
         height: 15%;
-        margin: auto;  
+        margin: 3% auto;  
       }      
     }
   }
@@ -280,9 +282,9 @@ footer {
     }
     
     .social-media {
-      display: inline;
       li {
         width: 30%;
+        display: inline-block;
       }
     }
   }
@@ -316,15 +318,16 @@ footer {
   .copy1 {
     color: @biscay;
     margin: 0 auto;
+    a {
+      color: @white;
+      text-decoration: none;
+    }
   }
   
   .copy2 {
     color: @biscay;
     font-size: 1.5em;
-    margin
-    a {
-      color: @white;
-      text-decoration: none;
-    }
+    margin: 0 auto;
+    
   }
 }
