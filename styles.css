@@ -227,9 +227,10 @@ footer {
 }
 footer ul {
   margin-bottom: 5%;
+  list-style: none;
 }
 footer ul li {
-  margin: 5% auto;
+  margin: 4% auto;
 }
 footer ul li a {
   color: #313d4f;
@@ -238,19 +239,8 @@ footer ul li a {
   text-decoration: none;
 }
 footer ul li a i {
-  color: white;
-}
-footer .social-media li {
-  display: inline;
-  width: 20%;
-  color: white;
-}
-footer .social-media li a {
   color: #ffffff;
-  text-decoration: none;
-}
-footer .social-media li a i {
-  color: #ffffff;
+  font-size: 1.75em;
 }
 footer .create-account {
   color: #313d4f;
