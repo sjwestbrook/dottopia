@@ -275,7 +275,7 @@ footer #account ul {
 footer #account ul li {
   margin-bottom: 3%;
 }
-footer #account ul li .create-account a {
+footer #account ul li .create-account {
   color: #313d4f;
   font-size: 1.25em;
   font-weight: bold;
@@ -287,7 +287,7 @@ footer #account ul li .create-account a {
   -webkit-border-radius: 33px 33px 33px 33px;
   border: 2px solid #ffffff;
 }
-footer #account ul li .sign-in a {
+footer #account ul li .sign-in {
   color: #ffffff;
   font-size: 1.25em;
   font-weight: bold;
