@@ -225,11 +225,8 @@ footer {
   background-color: #ffc10e;
   height: 14%;
 }
-footer ul {
-  list-style-type: none;
-  margin-bottom: 2%;
-}
 footer ul .footer-nav {
+  margin-bottom: 5%;
   list-style-type: none;
 }
 footer ul .footer-nav li {
@@ -242,9 +239,10 @@ footer ul .footer-nav li a {
   text-decoration: none;
 }
 footer ul {
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 footer ul .social-media {
+  margin-bottom: 5%;
   list-style-type: none;
 }
 footer ul .social-media li {
