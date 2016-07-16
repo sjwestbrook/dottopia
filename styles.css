@@ -229,16 +229,28 @@ footer ul {
   margin-bottom: 5%;
 }
 footer ul li {
-  margin: 2% auto;
+  margin: 5% auto;
 }
 footer ul li a {
   color: #313d4f;
-  font-size: 2em;
+  font-size: 1.75em;
   font-weight: bold;
   text-decoration: none;
 }
 footer ul li a i {
   color: white;
+}
+footer .social-media li {
+  display: inline;
+  width: 20%;
+  color: white;
+}
+footer .social-media li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+footer .social-media li a i {
+  color: #ffffff;
 }
 footer .create-account {
   color: #313d4f;
