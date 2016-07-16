@@ -50,7 +50,7 @@ header img {
   background-color: #ffc10e;
   background-image: url(images/Illustration.svg);
   background-repeat: no-repeat;
-  background-position: 0 -4%;
+  background-position: bottom center;
   padding: 0 15%;
   height: 14%;
 }
@@ -94,6 +94,14 @@ header img {
   height: 50%;
   margin: auto;
 }
+#section2 .activity-container #sleep img,
+#section2 .activity-container #beverage img,
+#section2 .activity-container #run img,
+#section2 .activity-container #fun img {
+  vertical-align: top;
+  height: 90px;
+  width: auto;
+}
 #section3 {
   background-color: #ececec;
   height: 14%;
@@ -113,12 +121,10 @@ header img {
   align-items: center;
   align-content: center;
 }
-#section3 .rewards-container #reward1,
-#section3 .rewards-container #reward2,
-#section3 .rewards-container #reward3 {
-  width: 30%;
-  height: 50%;
-  margin: auto;
+#section3 .rewards-container #reward1 img,
+#section3 .rewards-container #reward2 img,
+#section3 .rewards-container #reward3 img {
+  padding: 0 3% 1% 0;
 }
 #section3 .rewards-container p {
   font-size: 2em;
@@ -128,6 +134,7 @@ header img {
   height: 14%;
   background-image: url(images/iphone.png);
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: bottom center;
 }
 #section4 h1 {

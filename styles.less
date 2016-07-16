@@ -97,7 +97,7 @@ header {
   background-color: @yellow;
   background-image: url(images/Illustration.svg);
   background-repeat: no-repeat;
-  background-position: 0 -4%;
+  background-position: bottom center;
   padding: 0 15%;
   height: 14%;
   img {
@@ -131,6 +131,11 @@ header {
       width: 25%;
       height: 50%;
       margin: auto;
+      img {
+        vertical-align: top;
+        height: 90px;
+        width: auto;
+      }
     }
   }
 }
@@ -146,10 +151,14 @@ header {
 //    width: 60%;
     .flex-container;
     #reward1, #reward2, #reward3 {
-      width: 30%;
-      height: 50%;
-      margin: auto;
+//      width: 30%;
+//      height: 50%;
+//      margin: auto;
+      img {
+        padding: 0 3% 1% 0;
+      }
     }
+    
     p {
       font-size: 2em;
     }
@@ -165,6 +174,7 @@ header {
   .lower-sections;
   background-image: url(images/iphone.png);
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: bottom center;
   
 }
