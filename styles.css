@@ -27,6 +27,10 @@
   font-weight: bold;
   font-size: 2em;
 }
+.bold-yellow img {
+  height: auto;
+  width: auto;
+}
 * {
   outline: dotted red 1px;
 }
@@ -94,10 +98,10 @@ header img {
   height: 50%;
   margin: auto;
 }
-#section2 .activity-container #sleep img,
-#section2 .activity-container #beverage img,
-#section2 .activity-container #run img,
-#section2 .activity-container #fun img {
+#section2 .activity-container #sleep .activity,
+#section2 .activity-container #beverage .activity,
+#section2 .activity-container #run .activity,
+#section2 .activity-container #fun .activity {
   vertical-align: top;
   height: 90px;
   width: auto;
@@ -201,6 +205,20 @@ header img {
   padding: 0.5em 10px;
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
+#section6 .testimonials blockquote .review {
+  font-size: 2em;
+  text-align: left;
+  line-height: 1.15em;
+}
+#section6 .testimonials blockquote .reviewer img {
+  height: 2%;
+  width: 2%;
+  display: inline-block;
+  margin-right: 2%;
+}
+#section6 .testimonials blockquote .reviewer span {
+  display: inline-block;
+}
 #section6 .testimonials blockquote:before {
   color: #ccc;
   content: open-quote;
@@ -209,19 +227,6 @@ header img {
   margin-right: 0.25em;
   vertical-align: -0.4em;
   float: left;
-}
-#section6 .testimonials blockquote:before .review {
-  font-size: 2em;
-  text-align: left;
-}
-#section6 .testimonials blockquote:before .reviewer img {
-  height: 2%;
-  width: 2%;
-  display: inline-block;
-  margin-right: 2%;
-}
-#section6 .testimonials blockquote:before .reviewer span {
-  display: inline-block;
 }
 #section6 .partner-logos-container {
   margin: 3% auto;

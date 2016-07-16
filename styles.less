@@ -53,6 +53,10 @@
   color: @yellow;
   font-weight: bold;
   font-size: 2em;
+  img {
+    height: auto;
+    width: auto;
+  }
 }
 
 // ELEMENTS
@@ -131,11 +135,15 @@ header {
       width: 25%;
       height: 50%;
       margin: auto;
-      img {
+      .activity {
         vertical-align: top;
         height: 90px;
         width: auto;
       }
+//      .wellcoin {
+//        height: auto;
+//        width: auto;
+//      }
     }
   }
 }
@@ -220,27 +228,16 @@ header {
   height: 14%;
   .lower-sections;
   .testimonials {
-//    width: 60%;
     blockquote {
-//      background: #f9f9f9;
       border-left: 10px solid #ccc;
       margin: 1.5em 10px;
       padding: 0.5em 10px;
       quotes: "\201C""\201D""\2018""\2019";
-    }
-    blockquote:before {
-      color: #ccc;
-      content: open-quote;
-      font-size: 4em;
-      line-height: 0.1em;
-      margin-right: 0.25em;
-      vertical-align: -0.4em;
-      float: left;
       .review {
         font-size: 2em;
         text-align: left;
+        line-height: 1.15em;
       }
-      
       .reviewer {
         img {
           height: 2%;
@@ -252,6 +249,15 @@ header {
           display: inline-block;
         }
       }
+    }
+    blockquote:before {
+      color: #ccc;
+      content: open-quote;
+      font-size: 4em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+      vertical-align: -0.4em;
+      float: left;      
     }    
   }
   
