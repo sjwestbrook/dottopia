@@ -38,12 +38,6 @@ html {
   text-align: center;
   color: #262e3e;
 }
-a {
-  text-decoration: none;
-}
-ul {
-  list-style: none;
-}
 header {
   background-color: #ffc10e;
 }
@@ -195,7 +189,6 @@ header img {
   font-weight: 400;
 }
 #section6 .testimonials blockquote {
-  background: #f9f9f9;
   border-left: 10px solid #ccc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
@@ -209,13 +202,11 @@ header img {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
-#section6 .testimonials p {
-  display: inline;
-}
-#section6 .testimonials img {
+#section6 .testimonials blockquote:before .reviewer img {
   height: 5%;
   width: 5%;
-  float: left;
+  display: inline;
+  margin-right: 2%;
 }
 #section6 .partner-logos-container {
   margin: 3% auto;
@@ -226,7 +217,7 @@ header img {
   align-content: center;
 }
 #section6 .partner-logos-container a img {
-  width: 25%;
+  width: 50%;
   height: 15%;
   margin: auto;
 }
@@ -234,13 +225,20 @@ footer {
   background-color: #ffc10e;
   height: 14%;
 }
-footer .footer-nav li {
+footer .footer-nav ul {
+  list-style: none;
+}
+footer .footer-nav ul li {
   margin: 3% auto;
 }
-footer .footer-nav li a {
+footer .footer-nav ul li a {
   color: #313d4f;
   font-size: 2.5em;
   font-weight: bold;
+  text-decoration: none;
+}
+footer .social-media a {
+  text-decoration: none;
 }
 footer .social-media a i {
   color: #ffffff;

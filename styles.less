@@ -70,13 +70,13 @@ body, html {
   color: @charcoal;
 }
 
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-}
+//a {
+//  text-decoration: none;
+//}
+//
+//ul {
+//  list-style: none;
+//}
 
 // HEADER
 
@@ -212,7 +212,7 @@ header {
   .testimonials {
 //    width: 60%;
     blockquote {
-      background: #f9f9f9;
+//      background: #f9f9f9;
       border-left: 10px solid #ccc;
       margin: 1.5em 10px;
       padding: 0.5em 10px;
@@ -225,22 +225,30 @@ header {
       line-height: 0.1em;
       margin-right: 0.25em;
       vertical-align: -0.4em;
-    }
-    p {
-      display: inline;
-    }
-    img {
-      height: 5%;
-      width: 5%;
-      float: left;
-    }
+      .review {
+        
+      }
+      
+      .reviewer {
+        img {
+          height: 5%;
+          width: 5%;
+          display: inline;
+          margin-right: 2%;
+        }
+//        span {
+//          
+//        }
+      }
+    }    
   }
+  
   .partner-logos-container {
     margin: 3% auto;
     .flex-container;
     a {
       img {
-        width: 25%;
+        width: 50%;
         height: 15%;
         margin: auto;  
       }      
@@ -255,18 +263,23 @@ footer {
   height: 14%;
   
   .footer-nav {
-    li {
-      margin: 3% auto;      
-      a {
-        color: @biscay;
-        font-size: 2.5em;
-        font-weight: bold;
+    ul {
+      list-style: none;
+      li {
+        margin: 3% auto;      
+        a {
+          color: @biscay;
+          font-size: 2.5em;
+          font-weight: bold;
+          text-decoration: none;
+        }
       }
     }
   }
   
   .social-media {
     a {
+      text-decoration: none;
       i {
         color: @white;
       }
