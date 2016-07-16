@@ -226,7 +226,7 @@ footer {
   height: 14%;
 }
 footer .footer-nav ul {
-  list-style: none;
+  list-style-type: none;
 }
 footer .footer-nav ul li {
   margin: 3% auto;
@@ -237,6 +237,9 @@ footer .footer-nav ul li a {
   font-weight: bold;
   text-decoration: none;
 }
+footer .social-media {
+  list-style-type: none;
+}
 footer .social-media li {
   display: inline;
   width: 20%;
@@ -244,6 +247,9 @@ footer .social-media li {
 footer .social-media li a {
   color: #ffffff;
   text-decoration: none;
+}
+footer .social-media li a i {
+  color: #ffffff;
 }
 footer .create-account {
   color: #313d4f;
@@ -254,10 +260,19 @@ footer .create-account {
   -webkit-border-radius: 33px 33px 33px 33px;
   border: 2px solid #ffffff;
 }
+footer .sign-in a {
+  color: #313d4f;
+  text-decoration: none;
+}
 footer .copy1 {
   color: #313d4f;
+  margin: 0 auto;
 }
 footer .copy2 {
   color: #313d4f;
-  font-size: 2em;
+  font-size: 1.5em;
+}
+footer .copy2 margin a {
+  color: #ffffff;
+  text-decoration: none;
 }
