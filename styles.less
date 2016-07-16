@@ -264,7 +264,7 @@ footer {
   
   .footer-nav {
     ul {
-      list-style: none;
+      list-style-type: none;
       li {
         margin: 3% auto;      
         a {
@@ -278,15 +278,16 @@ footer {
   }
   
   .social-media {
+    list-style-type:none;
     li {
       display: inline;
       width: 20%;
       a {
         color: @white;
         text-decoration: none;
-//        i {
-//          color: @white;
-//        }
+        i {
+          color: @white;
+        }
       }
     }
   }
@@ -307,6 +308,9 @@ footer {
   
   .copy2 {
     color: @biscay;
-    font-size: 2em;
+    font-size: 1.5em;
+    a {
+      text-decoration: none;
+    }
   }
 }
