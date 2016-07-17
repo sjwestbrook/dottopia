@@ -31,9 +31,6 @@
   height: auto;
   width: auto;
 }
-* {
-  outline: dotted red 1px;
-}
 body,
 html {
   margin: 0;
@@ -210,13 +207,13 @@ header img {
   font-size: 1.25em;
   text-align: left;
   line-height: 1.15em;
-  margin-bottom: 3%;
 }
 #section6 .testimonials blockquote .reviewer img {
-  height: 8%;
-  width: 8%;
+  height: 6%;
+  width: 6%;
   display: inline;
   margin-right: 2%;
+  margin-top: 1.5%;
 }
 #section6 .testimonials blockquote .reviewer span {
   display: inline;
