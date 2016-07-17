@@ -1,5 +1,6 @@
 .text {
-  margin: 1vh 5vh 2vh 5vh;
+  margin: 1vh auto 2vh auto;
+  width: 75%;
 }
 .padding-top {
   padding-top: 8vh;
@@ -21,6 +22,7 @@
 .lower-sections h3 {
   font-size: 1.75em;
   font-weight: 400;
+  margin-bottom: 5%;
 }
 .bold-yellow {
   color: #ffc10e;
@@ -30,6 +32,7 @@
 .bold-yellow img {
   height: auto;
   width: auto;
+  margin-right: 2%;
 }
 body,
 html {
@@ -79,6 +82,7 @@ header img {
 #section2 h3 {
   font-size: 1.75em;
   font-weight: 400;
+  margin-bottom: 5%;
 }
 #section2 .activity-container {
   display: flex;
@@ -114,6 +118,7 @@ header img {
 #section3 h3 {
   font-size: 1.75em;
   font-weight: 400;
+  margin-bottom: 5%;
 }
 #section3 .rewards-container {
   display: flex;
@@ -146,6 +151,7 @@ header img {
 #section4 h3 {
   font-size: 1.75em;
   font-weight: 400;
+  margin-bottom: 5%;
 }
 #section5 {
   background-color: #f6f6f6;
@@ -158,8 +164,13 @@ header img {
 #section5 h3 {
   font-size: 1.75em;
   font-weight: 400;
+  margin-bottom: 5%;
+}
+#section5 h3 {
+  margin-bottom: 8%;
 }
 #section5 .partners-container {
+  margin-bottom: 5%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -196,6 +207,7 @@ header img {
 #section6 h3 {
   font-size: 1.75em;
   font-weight: 400;
+  margin-bottom: 5%;
 }
 #section6 .testimonials blockquote {
   border-left: 10px solid #ccc;
@@ -262,7 +274,7 @@ footer .footer-nav ul li a i {
   font-size: 1.75em;
 }
 footer .social-media ul {
-  margin: 0 auto 8% auto;
+  margin: 0 auto 6% auto;
   list-style: none;
   width: 40%;
 }
