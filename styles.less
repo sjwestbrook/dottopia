@@ -231,6 +231,16 @@ header {
   height: 14%;
   .lower-sections;
   .testimonials {
+    blockquote:before {
+      color: #ccc;
+      content: open-quote;
+      font-size: 4em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+      vertical-align: -0.4em;
+      float: left;      
+    } 
+    
     blockquote {
       border-left: 10px solid #ccc;
       margin: 1.5em 10px;
@@ -254,15 +264,7 @@ header {
         }
       }
     }
-    blockquote:before {
-      color: #ccc;
-      content: open-quote;
-      font-size: 4em;
-      line-height: 0.1em;
-      margin-right: 0.25em;
-      vertical-align: -0.4em;
-      float: left;      
-    }    
+       
   }
   
   .partner-logos-container {
