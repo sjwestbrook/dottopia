@@ -44,6 +44,7 @@ html {
 }
 header {
   background-color: #ffc10e;
+  border: solid 5px #ffc10e;
 }
 header img {
   display: block;
