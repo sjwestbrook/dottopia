@@ -239,6 +239,21 @@ header img {
 #section6 .testimonials blockquote .reviewer span {
   display: inline;
 }
+#section6 .testimonials blockquote .review2 {
+  font-size: 1.25em;
+  text-align: left;
+  line-height: 1.15em;
+}
+#section6 .testimonials blockquote .reviewer2 img {
+  height: 6%;
+  width: 6%;
+  display: inline;
+  margin-right: 2%;
+  margin-top: 1.5%;
+}
+#section6 .testimonials blockquote .reviewer2 span {
+  display: inline;
+}
 #section6 .partner-logos-container {
   margin: 8% auto;
   display: flex;
